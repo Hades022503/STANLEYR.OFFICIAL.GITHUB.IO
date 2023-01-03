@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crush.css">
+    <title>Document</title>
+</style>
+</head>
+<body bgcolor="black">
+    <h1 id="resultText"></h1>
+  <script>
+    
+    let response = prompt("May pag asa ba ko? Type oo or hindi" ,"use small letter only");
+    let outputText = "";
+    
+    if (response=="oo"){
+      outputText = "YEHEYY MWUAH MWUAH KA SAKIN";
+    }else if(response=="hindi"){
+      outputText = "EDI DONT IKAW DIN";
+    }else{
+      outputText = "please type oo or hindi!!";
+    }
+    
+    document.getElementById("resultText").innerHTML = outputText;
+  </script>
+</body>
+</html>
